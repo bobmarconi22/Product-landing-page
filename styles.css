@@ -1,0 +1,52 @@
+title{
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 30px;
+    color: #404040;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#nav-bar{
+    display: flex;
+    flex: center;
+    color: #6DAA00;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+@media print{
+    #nav-bar{
+        display: none;
+    }
+}
